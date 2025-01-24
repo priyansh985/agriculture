@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+from sklearn.preprocessing import StandardScaler
+
 
 # Load the model and scaler
 model = joblib.load('Random.pkl')
